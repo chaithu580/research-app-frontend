@@ -64,12 +64,12 @@ export function Sidebar() {
 
       {/* Footer */}
       <div className="p-4 border-t border-sidebar-border">
-        <div className="glass p-3 rounded-lg">
-          <p className="text-xs text-sidebar-foreground/70 text-center">
-            Powered by Gemini AI
-          </p>
-        </div>
-      </div>
+  <div className="p-3 rounded-lg bg-gradient-to-r from-purple-600 to-blue-500 shadow-md">
+    <p className="text-xs text-white text-center font-medium tracking-wide">
+      Powered by Gemini AI
+    </p>
+  </div>
+</div>
     </aside>
   );
 }

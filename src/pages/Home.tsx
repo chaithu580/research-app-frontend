@@ -81,7 +81,7 @@ export default function Home() {
               size="lg"
               variant="outline"
               onClick={() => navigate("/summarize")}
-              className="border-2 border-white text-white hover:bg-white/10"
+              className="border-2 border-white text-primary hover:bg-white/10"
             >
               <MessageSquare className="w-5 h-5 mr-2" />
               Start Summarizing
