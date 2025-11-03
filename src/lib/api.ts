@@ -1,6 +1,6 @@
 // API utilities for Research Summarizer backend
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || "http://127.0.0.1:5000";
+const API_BASE_URL = import.meta.env.VITE_API_URL || "https://research-app-10.onrender.com";
 
 export interface UploadResponse {
   message: string;
